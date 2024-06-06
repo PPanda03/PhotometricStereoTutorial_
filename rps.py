@@ -113,7 +113,7 @@ class PS(object):
         # Hint: You can use function normalize from sklearn.preprocessing
 
         # self.N = ???
-        self.N = normalize(self.N, norm='max')
+        self.N = normalize(self.N, norm='l2')
 
 
         #############################################
